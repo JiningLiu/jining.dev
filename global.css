@@ -1,18 +1,18 @@
 :root {
   color: black;
   --primary-color: black;
-	--bg-color-1: hsl(40, 60%, 96%);
-	--bg-color-2: hsl(40, 60%, 95.8%);
-	--bg-color-3: hsl(40, 60%, 95.5%);
-	--bg-color-4: hsl(40, 60%, 95%);
+	--bg-color-1: hsl(40, 45%, 98.5%);
+	--bg-color-2: hsl(40, 50%, 95.5%);
+	--bg-color-3: hsl(40, 55%, 92%);
+	--bg-color-4: hsl(40, 60%, 88%);
 
 	@media (prefers-color-scheme: dark) {
     color: white;
     --primary-color: white;
-		--bg-color-1: hsl(180, 40%, 5%);
-		--bg-color-2: hsl(180, 40%, 4.8%);
-		--bg-color-3: hsl(180, 40%, 4.5%);
-		--bg-color-4: hsl(180, 38%, 4%);
+		--bg-color-1: hsl(180, 44%, 8%);
+		--bg-color-2: hsl(180, 42%, 6.5%);
+		--bg-color-3: hsl(180, 40%, 5.5%);
+		--bg-color-4: hsl(180, 38%, 5%);
 	}
 }
 
@@ -82,6 +82,11 @@ p, footer {
 
 footer {
   font-weight: 300;
+}
+
+a {
+	color: var(--primary-color);
+	text-decoration: none;
 }
 
 .vstack {
