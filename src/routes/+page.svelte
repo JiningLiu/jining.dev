@@ -13,7 +13,15 @@
 		<l3 id="name">Jining</l3>
 	</div>
 
-	<div id="links" class="vcenter hcenter">
+	<div id="nav" class="links vstack vcenter">
+		<a class="internal" href="https://wii.jining.dev"> <p>Wii Stats</p></a>
+
+		<a target="_blank" href="mailto:hello@jining.dev"> <p>Contact</p></a>
+
+		<a target="_blank" href="mailto:business@jining.dev"> <p>Business</p></a>
+	</div>
+
+	<div id="socials" class="links vcenter hcenter">
 		<a target="_blank" href="https://github.com/JiningLiu/"
 			><img src="gh.png" alt="GitHub Logo" />
 			<p>JiningLiu</p></a
@@ -42,7 +50,7 @@
 	}
 
 	#hand {
-    transition-property: scale, transform;
+		transition-property: scale, transform;
 		transition-duration: 0.2s;
 	}
 
@@ -96,15 +104,24 @@
 		opacity: 1;
 	} */
 
-	#links {
+	.links {
 		display: flex;
 		flex-direction: row;
 		margin-top: 4vh;
 		gap: min(6vw, 1.8rem);
 
 		@media (max-width: 600px) {
-			flex-direction: column;
-			gap: min(2.2vh, 1rem);
+			&#socials {
+				flex-direction: column;
+				gap: min(2.4vh, 1rem);
+			}
+		}
+
+		@media (max-width: 400px) {
+			&#nav {
+				flex-direction: column;
+				gap: 0;
+			}
 		}
 
 		a {
@@ -133,15 +150,23 @@
 		}
 
 		a::after {
-			content: '↗';
 			opacity: 0;
 			font-size: min(4vw, 1rem);
 			font-weight: 400;
 			position: absolute;
-			left: 105%;
 			bottom: 50%;
 			transform: translate(0, 50%);
 			transition: all ease-in-out 0.1s;
+		}
+
+		a:not(.internal)::after {
+			content: '↗';
+			left: calc(100% + min(4vw, 1rem) / 3);
+		}
+
+		a.internal::after {
+			content: '↘';
+			left: calc(-1.1 * min(4vw, 1rem));
 		}
 
 		*:hover::after {
