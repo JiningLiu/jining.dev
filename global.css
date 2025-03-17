@@ -106,3 +106,15 @@ a {
 .hcenter {
   justify-content: center;
 }
+
+.d-gap {
+	gap: 0.4rem;
+}
+
+.b-gap {
+	gap: 0.8rem;
+}
+
+.l-gap {
+	gap: 1.2rem;
+}
