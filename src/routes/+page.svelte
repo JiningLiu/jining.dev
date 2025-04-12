@@ -1,35 +1,5 @@
 <head>
 	<title>Hello | Jining Liu</title>
-
-	<meta
-		name="description"
-		content="Hi 👋 I'm Jining, world's #1 procrastinator, Wii Sports enthusiast, and full stack student developer in Austin, TX."
-	/>
-
-	<meta property="og:url" content="https://jining.dev" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Jining Liu" />
-	<meta
-		property="og:description"
-		content="Hi 👋 I'm Jining, world's #1 procrastinator, Wii Sports enthusiast, and full stack student developer in Austin, TX."
-	/>
-	<meta
-		property="og:image"
-		content="https://opengraph.b-cdn.net/production/images/34467922-5607-4985-a46c-7a01c83cd5af.png?token=foCbBiemnuEhKz6X386FwvQJQdhljIu0904kXb2TPgM&height=450&width=800&expires=33280300900"
-	/>
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="jining.dev" />
-	<meta property="twitter:url" content="https://jining.dev" />
-	<meta name="twitter:title" content="Jining Liu" />
-	<meta
-		name="twitter:description"
-		content="Hi 👋 I'm Jining, world's #1 procrastinator, Wii Sports enthusiast, and full stack student developer in Austin, TX."
-	/>
-	<meta
-		name="twitter:image"
-		content="https://opengraph.b-cdn.net/production/images/34467922-5607-4985-a46c-7a01c83cd5af.png?token=foCbBiemnuEhKz6X386FwvQJQdhljIu0904kXb2TPgM&height=450&width=800&expires=33280300900"
-	/>
 </head>
 
 <main class="vstack vcenter hcenter">
