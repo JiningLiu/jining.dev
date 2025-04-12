@@ -6,7 +6,7 @@
 		content="Hi 👋 I'm Jining, world's #1 procrastinator, Wii Sports enthusiast, and full stack student developer in Austin, TX."
 	/>
 
-	<meta property="og:url" content="https://github.com" />
+	<meta property="og:url" content="https://jining.dev" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Jining Liu" />
 	<meta
@@ -19,8 +19,8 @@
 	/>
 
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="github.com" />
-	<meta property="twitter:url" content="https://github.com" />
+	<meta property="twitter:domain" content="jining.dev" />
+	<meta property="twitter:url" content="https://jining.dev" />
 	<meta name="twitter:title" content="Jining Liu" />
 	<meta
 		name="twitter:description"
