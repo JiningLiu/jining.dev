@@ -14,6 +14,8 @@
 	</div>
 
 	<div id="nav" class="links vstack vcenter">
+		<a class="internal" href="https://blog.jining.dev"> <p>Blog</p></a>
+
 		<a class="internal" href="https://wii.jining.dev"> <p>Wii Stats</p></a>
 
 		<a target="_blank" href="mailto:hello@jining.dev"> <p>Contact</p></a>
