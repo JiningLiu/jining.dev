@@ -41,7 +41,7 @@
 	</div>
 
 	<div id="footer" class="hstack vcenter">
-		<footer>© 2025&nbsp;&nbsp;</footer>
+		<footer>© {new Date().getFullYear()}&nbsp;&nbsp;</footer>
 		<div></div>
 	</div>
 </main>
